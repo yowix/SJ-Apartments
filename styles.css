@@ -1,0 +1,49 @@
+html,
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    margin-right: 10rem;
+}
+
+ul {
+    list-style: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+#brand {
+    margin-left: 1rem;
+}
+
+.intro {
+    padding-left: 10rem;
+}
+
+.newsletter {
+    padding-left: 10rem;
+}
