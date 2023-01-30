@@ -47,17 +47,17 @@ li>a {
 }
 
 .responsive-img {
-    height: auto;
+    height: 100vh;
     width: 100%;
 }
 
 .text-overlay {
     display: inline-block;
-    background-color: #333333;
+    background-color: #333333dc;
     color: white;
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 0.5rem;
@@ -71,7 +71,7 @@ li>a {
 
 .button-container {
     position: absolute;
-    bottom: 4rem;
+    bottom: 8rem;
     left: 50%;
     transform: translateX(-50%);
 }
